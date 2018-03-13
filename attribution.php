@@ -27,13 +27,6 @@
     </ul>
 
     <div class="spacer"></div>
-
-    <h4>PHP-Java Website Bridge</h4>
-    <ul>
-      <li><a href="http://quercus.caucho.com/" target="_blank">Quercus&reg;</a> by <a target="_blank" href="http://caucho.com/">Caucho Technology, Inc.</a> is licensed under <a target="_blank" href="https://opensource.org/licenses/GPL-2.0">Open Source GPL License</a></li>
-    </ul>
-
-   
   </section>
 
   <div class="spacer"></div>
@@ -43,17 +36,6 @@
     <h6><small>nfrdi/dev &copy;2018</small></h6>
   </section>
 </footer>
-<!-- 
- <div id="gwt-standard-footer"></div>
-<script type="text/javascript">
-(function(d, s, id) {
-var js, gjs = d.getElementById('gwt-standard-footer');
-
-js = d.createElement(s); js.id = id;
-js.src = "//gwhs.i.gov.ph/gwt-footer/footer.js";
-gjs.parentNode.insertBefore(js, gjs);
-}(document, 'script', 'gwt-footer-jsdk'));
-</script> -->
 <?php
   include_once 'scripts.php';
 ?>
