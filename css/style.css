@@ -1,0 +1,352 @@
+html {
+  font-size: 1rem;
+  background: #333;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6rem;
+  }
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  opacity: 1;
+  transition: 1s opacity;
+}
+body.fade-out {
+  opacity: 0;
+  transition: none;
+}
+
+.spacer{
+  margin: 2.5rem 0 !important;
+}
+
+.spacer5{
+  height: 5rem;
+}
+
+.header-strip h6{
+  font-weight: 300 !important;
+}
+
+.header-strip .col-lg-8{
+  margin: .2rem 0 0 0 !important;
+  border-left: 2px #ccc solid;
+}
+
+.header-strip .col-lg-8 h5{
+  margin: 1rem 0 0 0;
+}
+
+.navbar, .dropdown-menu{
+  background: #005B96 !important;
+}
+
+.navbar ul li a{
+  color: #fff !important;
+}
+
+
+
+
+.img-valign{
+  vertical-align: middle;
+}
+
+header{
+/*  background: #003c63;*/
+  padding: 2rem 0;
+}
+
+header img{
+  margin: -.5rem 0 0 0;
+}
+
+/*header h2{
+text-shadow: rgb(177, 179, 181) 0.179517px 0.179517px 0px, rgb(179, 181, 183) 1.17952px 1.17952px 0px, rgb(181, 183, 185) 2.17952px 2.17952px 0px, rgb(183, 185, 187) 3.17952px 3.17952px 0px, rgb(185, 187, 189) 4.17952px 4.17952px 0px, rgb(187, 189, 191) 5.17952px 5.17952px 0px, rgb(189, 191, 193) 6.17952px 6.17952px 0px, rgb(191, 193, 195) 7.17952px 7.17952px 0px, rgb(193, 195, 197) 8.17952px 8.17952px 0px, rgb(195, 197, 199) 9.17952px 9.17952px 0px, rgb(197, 199, 201) 10.1795px 10.1795px 0px, rgb(199, 201, 203) 11.1795px 11.1795px 0px, rgb(201, 203, 205) 12.1795px 12.1795px 0px, rgb(203, 205, 207) 13.1795px 13.1795px 0px, rgb(205, 207, 210) 14.1795px 14.1795px 0px, rgb(207, 209, 212) 15.1795px 15.1795px 0px, rgb(209, 211, 214) 16.1795px 16.1795px 0px, rgb(211, 213, 216) 17.1795px 17.1795px 0px, rgb(213, 215, 218) 18.1795px 18.1795px 0px, rgb(215, 217, 220) 19.1795px 19.1795px 0px, rgb(217, 219, 222) 20.1795px 20.1795px 0px, rgb(219, 221, 224) 21.1795px 21.1795px 0px, rgb(221, 223, 226) 22.1795px 22.1795px 0px, rgb(223, 225, 228) 23.1795px 23.1795px 0px, rgb(225, 227, 230) 24.1795px 24.1795px 0px, rgb(227, 229, 232) 25.1795px 25.1795px 0px, rgb(229, 231, 234) 26.1795px 26.1795px 0px, rgb(231, 233, 236) 27.1795px 27.1795px 0px, rgb(233, 236, 239) 28.1795px 28.1795px 0px;  
+}
+*/
+
+.nav-link{
+  padding: 1rem .7rem !important;
+}
+
+.nav-link{
+  font-weight: 300 !important;
+}
+
+.dropdown-item:hover{
+  background: #003c63 !important;
+}
+
+.dropdown-item{
+  padding: 1rem !important;
+}
+
+
+.page-title{
+  padding: 3rem !important;
+}
+
+.page-title h1{
+  font-weight: 300 !important;
+  margin: 0 0 3rem 0;
+}
+
+.page-title h1 small{
+  font-weight: 300 !important;
+}
+
+
+.about h3 font , .register h3 font, .abstract h3 font{
+  background: #005B96;
+  color: #fff;
+  padding: .5rem 1rem;
+  font-weight: 300 !important;
+}
+
+.about h3{
+  margin: auto 0 2rem 0;
+}
+
+.about img{
+  margin: 12rem 0 0 0;
+}
+
+
+.about .row .col-md-12 p{
+  text-align: justify;
+}
+
+.about p,.guidelines p{
+  text-indent: 30px;
+}
+
+
+
+.guidelines, .connect{
+  background: #005B96;
+  color: #333;
+}
+
+.forms{
+  background: #005B96;
+  color: #fff;
+}
+
+
+.guidelines h1, .connect h1, .forms h1{
+  color: #fff;
+}
+
+.guidelines h1 font, .contact h1 font, .connect h1 font, .forms h1 font{
+  color: #fff;
+  background: #474143;
+  padding: .5rem 1rem;
+}
+
+.guidelines h6{
+  text-align: justify;
+  color: #fff;
+}
+
+.guidelines .card{
+  border: none;
+}
+
+.row{
+  margin: 0;
+}
+
+.forms h1{
+  margin: 0 !important;
+}
+
+
+.about h1 font{
+  background: #005B96;
+  color: #fff;
+  padding: .5rem .7rem;
+  font-weight: 300 !important;
+}
+
+
+
+.guidelines .card-body{
+  padding: 0 !important;
+}
+
+.guidelines .card h6{
+  padding: 1rem 0;
+  text-align: center;
+  color: #fff;
+  background: #333;
+}
+
+.guidelines ul{
+  list-style: none !important;
+}
+
+
+
+.connect{
+  color: #fff;
+}
+
+.connect h4{
+  font-weight: 300 !important;
+}
+
+.connect ul li{
+  padding: .5rem;
+}
+
+.connect .col-md-6 p{
+  padding: 0 0 0 1.5rem;
+}
+
+.connect a{
+  color: #fff;
+  transition: all 1s;
+}
+
+.connect a:hover{
+  color: #ddd;
+  text-transform: none !important;
+}
+
+.wrap-details .col-lg-6{
+  padding: 0 !important;
+}
+
+.feedbacks{
+  background: #dfdfdf;
+  color: #444;
+}
+
+
+
+.committee h5{
+  text-decoration: underline;
+}
+
+
+.connect-mast{
+  background: #005B96;
+  padding: 1.5rem;
+}
+
+.connect-mast h4{
+  margin: 0 !important;
+}
+
+.connect-mast h4 a{
+  text-transform: none !important;
+}
+
+
+ #map {
+   width: 100%;
+   height: 650px;
+   background-color: grey;
+ }
+
+.contact table td{
+  padding: .5rem;
+}
+
+
+
+footer{
+  color: #fd7e14;
+  background: #333;
+ padding: 1rem 0; 
+}
+
+footer h6{
+  margin: 0 !important;
+}
+
+.btn{
+  border-radius: 0 !important;
+}
+
+/*==================================================
+ * Effect 6
+ * ===============================================*/
+.effect6
+{
+    position:relative;       
+        box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.effect6:before, .effect6:after
+{
+  content:"";
+    position:absolute; 
+    z-index:-1;
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    top:50%;
+    bottom:0;
+    left:10px;
+    right:10px;
+    border-radius:100px / 10px;
+}
+
+
+.cd-top {
+  z-index: 2;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  padding: 1.5rem;
+  position: fixed;
+  bottom: 35px;
+  right: 5%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  background-color: #333;
+  /* image replacement properties */
+  overflow: hidden;
+  white-space: nowrap;
+  background: #333 url(../images/cd-top-arrow.svg) no-repeat center 50%;
+  visibility: hidden;
+  text-align: center;
+  opacity: 1;
+  -webkit-transition: opacity .3s 0s, visibility 1s .3s background 1s;
+  -moz-transition: opacity .3s 0s, visibility 1s .3s background 1s;
+  transition: opacity .3s 0s, visibility 1s .3s background 1s;
+}
+
+.cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
+  -webkit-transition: opacity .3s 0s, visibility 1s 0s background 1s;
+  -moz-transition: opacity .3s 0s, visibility 1s 0s background 1s;
+  transition: opacity .3s 0s, visibility 0s 1s background 1s;
+}
+.cd-top.cd-is-visible {
+  /* the button becomes visible */
+  visibility: visible;
+  opacity: 1;
+}
+.cd-top.cd-fade-out {
+  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+  opacity: 1;
+}
+.no-touch .cd-top:hover {
+  background-color: #222;
+  opacity: 1;
+}
+
+
